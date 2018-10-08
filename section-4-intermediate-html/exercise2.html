@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Sign up form</title>
+
+</head>
+
+<body>
+    <h1>Register</h1>
+    <form>
+
+        <label for="firstname">First Name:</label>
+        <input id="firstname" name="firstname" type="text" placeholder="John" required>
+
+        <label for="lastname">Last Name:</label>
+        <input id="lastname" type="text" placeholder="Smith" required>
+
+        <br>
+
+
+        <label for="male">Male</label>
+        <input name="gender" id="male" type="radio">
+
+        <label for="female">Female</label>
+        <input name="gender" id="female" type="radio">
+
+        <label for="other">Other</label>
+        <input name="gender" id="other" type="radio">
+
+
+        <br>
+
+        <label for="email">Email:</label>
+        <input id="email" placeholder="your email" type="email" required>
+
+        <label for="password">Password</label>
+        <input id="password" type="password" inputmode="numeric" minlength="5" maxlength="10" size="10">
+
+        <br>
+
+        <label for="birthday">Birthday</label>
+        <select id="birthday">
+            <option value="">Month</option>
+            <option value="July">July</option>
+            <option value="June">June</option>
+            <option value="September">September</option>
+        </select>
+        <select id="birthday">
+            <option value="">Day</option>
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+        </select>
+        <select id="birthday">
+            <option value="">Year</option>
+            <option value="Monday">2000</option>
+            <option value="Tuesday">2001</option>
+            <option value="Wednesday">1993</option>
+        </select>
+
+        <br>
+
+        <label for="terms">I agree to the terms and conditions</label>
+        <input id="terms" type="checkbox">
+
+
+        <br>
+        <input type="submit">
+
+    </form>
+
+</body>
+
+</html>
